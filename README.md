@@ -46,7 +46,7 @@ Then either run the script `fetch-js-deps.sh`, or copy or symlink the following 
 
 [TODO: Integrate fetch-js-deps or equivalent effects into setup.py.]
 
-After the above dependencies have been installed, you may use the Python `setup.py` to install ShinySDR, or simply run it from this directory — installation is entirely optional.
+After the above dependencies have been installed, you may use the Python `python setup.py install` to install ShinySDR, or simply run it from this directory — installation is entirely optional.
 
 The only web browser currently supported is [Google Chrome](https://www.google.com/chrome/) (excluding Chrome for iPhone or iPad).
 While it is not *intended* to be Chrome-only, no attempt has been made to avoid using facilities which are *not yet* implemented in other browsers.
